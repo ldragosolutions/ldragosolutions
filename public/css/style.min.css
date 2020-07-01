@@ -752,7 +752,7 @@ select::-ms-expand {
     position: absolute;
     z-index: 200;
     width: 100%;
-    background: linear-gradient(90deg, #81d4fa, #E15B64);
+    background: linear-gradient(90deg, #E15B64, #81d4fa);
     -webkit-transition: .7s;
     transition: .7s
 }
@@ -788,6 +788,7 @@ select::-ms-expand {
 }
 
 .navbar__menu {
+    margin-top: 2%;
     display: none
 }
 
@@ -962,12 +963,12 @@ select::-ms-expand {
 
 .mainblock__overlay--gradient {
     background: -webkit-gradient(linear, left top, right top, from(#81d4fa), to(#E15B64));
-    background: linear-gradient(90deg, #81d4fa, #E15B64)
+    background: linear-gradient(90deg, #E15B64, #81d4fa)
 }
 
 .mainblock__overlay--gradientVertical {
     background: -webkit-gradient(linear, left top, left bottom, from(#81d4fa), to(#E15B64));
-    background: linear-gradient(180deg, #81d4fa, #E15B64)
+    background: linear-gradient(180deg, #E15B64, #81d4fa)
 }
 
 .mainblock__mask {
@@ -1246,7 +1247,7 @@ select::-ms-expand {
 
 .cta {
     background: -webkit-gradient(linear, left top, right top, from(#81d4fa), to(#E15B64));
-    background: linear-gradient(90deg, #81d4fa, #E15B64);
+    background: linear-gradient(90deg, #E15B64, #81d4fa);
     color: #fff;
     padding: 48pt 0;
     text-align: center
@@ -1254,7 +1255,7 @@ select::-ms-expand {
 
 .cta--reverse {
     background: -webkit-gradient(linear, right top, left top, from(#81d4fa), to(#E15B64));
-    background: linear-gradient(270deg, #81d4fa, #E15B64)
+    background: linear-gradient(270deg, #E15B64, #81d4fa)
 }
 
 .cta--plain {
